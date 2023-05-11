@@ -95,3 +95,31 @@ section h2 {
 #economy {
   background-color: #f8f595 ;
 }
+
+#entretenimento {
+  background-color: #b380ff;
+  
+}
+
+#entretenimento p, h3, h4, h2, {
+  color: #f5f6fa;
+  
+}
+#entretenimento .articles article a {
+  background-color: #5c00e6;
+  color:  white;
+}
+
+#tec {
+  background-color: #ff9999;
+  
+}
+
+#tec p, h3, h4, h2, {
+  color: #f5f6fa;
+  
+}
+#tec .articles article a {
+  background-color: #e60000;
+  color:  white;
+}
