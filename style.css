@@ -47,10 +47,10 @@ button:hover {
 }
 .valido {
   color: green;
-  padding: 8px;
+  padding: 9px;
 }
 
 .invalido {
   color: red;
-  padding: 8px;
+  padding: 9px;
 }
