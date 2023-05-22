@@ -22,11 +22,15 @@ form {
   text-align: center;
   background-color: #f9e5ec;
 }
-
+#taskInput {
+width: 300px;
+}
 input, button {
   padding: 8px;
 }
-
+.completed {
+  text-decoration: line-through;
+}
 form h2 {
   margin-bottom: 16px;}
 
@@ -37,4 +41,18 @@ button {
   cursor: pointer;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+#taskList {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  list-style-type: none;
+ 
+}
+
+#taskList li {
+  display: block; 
+  cursor: pointer;
+  margin-bottom: 10px;
 }
