@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista de tarefas</title>
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -15,8 +15,11 @@
 
 <body>
   <div class="container">
-    <h1>Lista de tarefas com Jquery</h1>
+    <header>
+      <h1>Lista de tarefas com Jquery</h1>
+    </header>
     <form id="taskform">
+      <h2>Inserir nova tarefa</h2>
       <input type="text" id="task" required placeholder="Digite uma Tarefa" />
 
       <button type="submit" id="submit">Adicionar Tarefa</button>
@@ -24,7 +27,7 @@
 
 
   </div>
-
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"> </script>
   <script src="./main.js"></script>
 </body>
 
