@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #D01734;
+  padding: 16px 0;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: #eee9ea;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+form button {
+  padding: 12px;
+  margin-top: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #3e060f;
+  color: white;
+}
+
+form button:hover {
+  background-color: #D01734;
+  transition: 0.5s;
+}

@@ -5,11 +5,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Form com Máscaras</title>
 </head>
 
 <body>
+  <header>
+    <h1>Exercício Jquery Com Plugin</h1>
+  </header>
+  <div class="container">
 
+    <!--Começo do form -->
+    <form action="">
+      <h2>Nome: </h2>
+      <input type="text" required placeholder="Digite seu nome">
+      <h2>Email: </h2>
+      <input type="email" required placeholder="Digite seu E-mail">
+      <h2>CPF: </h2>
+      <input type="number" required placeholder=" Digite seu CPF">
+      <h2> Endereço: </h2>
+      <input type="text" placeholder=" Digite seu Endereço">
+      <h2>CEP: </h2>
+      <input type="number" placeholder="Digite seu CEP" required>
+      <button> Enviar </button>
+    </form>
+    <!--Fim do form-->
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"> </script>
+  <script src="./main.js"></script>
 </body>
+
 
 </html>
