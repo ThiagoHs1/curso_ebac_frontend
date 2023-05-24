@@ -22,18 +22,18 @@
     <!--Começo do form -->
     <form action="">
       <h2>Nome: </h2>
-      <input type="text" required placeholder="Digite seu nome">
+      <input type="text" required name="nome" placeholder="Digite seu nome">
       <h2>Email: </h2>
-      <input type="email" required placeholder="Digite seu E-mail">
+      <input type="email" required name="email" placeholder="Digite seu E-mail">
       <h2>Numero: </h2>
-      <input type="tel" id="campo-telefone" required placeholder="Digite seu Telefone">
+      <input type="tel" name="numero" id="campo-telefone" required placeholder="Digite seu Telefone">
       <h2>CPF: </h2>
-      <input type="tel" id="campo-cpf" required placeholder="Digite seu CPF">
+      <input type="tel" name="CPF" id="campo-cpf" required placeholder="Digite seu CPF">
 
       <h2> Endereço: </h2>
-      <input type="text" placeholder=" Digite seu Endereço">
+      <input type="text" name="endereco" placeholder=" Digite seu Endereço">
       <h2>CEP: </h2>
-      <input type="cep" id="campo-cep" placeholder="Digite seu CEP" required>
+      <input type="cep" name="cep" id="campo-cep" placeholder="Digite seu CEP" required>
 
       <button> Enviar </button>
     </form>
@@ -45,6 +45,7 @@
   <script src="./js/main.js"></script>
   <script src="./js/jquery.mask.min.js"></script>
   <script src="./js/jquery.validate.min.js"> </script>
+  <script src="./js/messages_pt_BR.min.js"></script>
 
 </body>
 
