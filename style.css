@@ -26,6 +26,8 @@ form input {
   border-radius: 10px;
 }
 
+
+
 form button {
   padding: 12px;
   margin-top: 16px;
@@ -35,6 +37,7 @@ form button {
   border-radius: 10px;
   background-color: #3e060f;
   color: white;
+  font-size: 18px;
 }
 
 form button:hover {
