@@ -38,7 +38,20 @@ form button {
   background-color: #3e060f;
   color: white;
   font-size: 18px;
+  display: block;
 }
+
+input.error {
+  border-color: red;
+}
+
+.mensagem-erro {
+  color: red;
+  font-weight: bold;
+  border-bottom: 10px;
+  font-size: 18px;
+}
+
 
 form button:hover {
   background-color: #D01734;
