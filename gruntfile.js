@@ -15,11 +15,16 @@ module.exports = function (grunt) {
                     'main.min.css': 'main.less'
                 }
             }
+        },
+
+        concurrent: {
+            target: ['less']
         }
     })
 
     grunt.loadNpmTasks('grunt-contrib-less');
-    
+    grunt.loadNpmTasks('grunt-concurrent');
 
-    grunt.registerTask('default', ['less']);
+
+    grunt.registerTask('default', ['concurrent']);
 }
