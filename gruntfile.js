@@ -19,12 +19,21 @@ module.exports = function (grunt) {
 
         concurrent: {
             target: ['less']
+        },
+
+        uglify: {
+            target: {
+                files: {
+                    'main.min.js': 'main.js'
+                }
+            }
         }
     })
 
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-concurrent');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
 
-    grunt.registerTask('default', ['concurrent']);
+    grunt.registerTask('default', ['concurrent', 'less', 'uglify']);
 }
